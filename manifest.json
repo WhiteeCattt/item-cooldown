@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Задержки на предметы - v1.0.0",
+		"description": "Данный аддон добавляет на ваш сервер задержку использования предметов!\n\n§fНастройка находится в файле §6config.js§f\n\nСоздатель: §6WhiteeCattt§f\nТелеграм-канал: §6t.me/addons_pe",
+		"uuid": "fee3eaf0-1f2a-48b9-b669-1b5c8a48c863",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 20, 50 ]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "cd6787f1-27bc-4dea-9d1e-bc31bbb30b85",
+			"version": [ 0, 0, 1 ]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "48336759-aad4-4591-b6b1-2c5676bcae0b",
+			"version": "1.4.0-beta"
+		}
+	],
+	"metadata": {
+		"authors": ["WhiteeCattt"],
+		"license": "MIT",
+		"url": "https://t.me/addons_pe"
+	},
+	"dependencies": [
+		{
+			"description": "@minecraft/server module dependency",
+			"module_name": "@minecraft/server",
+			"version": "1.7.0"
+		}
+	]
+}
